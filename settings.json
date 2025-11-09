@@ -1,0 +1,31 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+//
+// This Zed settings are provided by Ahum Maitra
+// Author : Ahum Maitra
+// Licnese : MI
+{
+  //My Zed core settings
+  "ui_font_size": 16, //default font size is great for my montitors
+  "buffer_font_size": 15, //deafult butter font size is also great for my montitors
+  "theme": "Ayu Mirage", //My favorite theme
+
+  "auto_indent": true, //auto identation for Python
+  "auto_indent_on_paste": true, //auto identation also for anything paste
+  "disable_ai": true, //depends on your project but this is optional
+  "autosave": "on_window_change", //autosave is a good feature to save your work
+  "base_keymap": "JetBrains", //All keybindings accoriding to Jetbrains format
+  "current_line_highlight": "line", //hight not all line just the line
+  "minimap": {
+    "show": "always" //show minimap see your program
+  },
+  "format_on_save": "on", //format your current file if saved
+  "hide_mouse": "on_typing", //diable the mouse movemoent while typing
+  "vim_mode": true //I like Vim mode it's optional
+}
